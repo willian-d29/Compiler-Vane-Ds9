@@ -1,0 +1,39 @@
+# Asignaciones numéricas
+x = 5
+y = x + 2.5
+z = y * 3
+
+# Asignación de cadena
+mensaje = "Hola mundo"
+
+# Impresiones mixtas
+print(x)
+print(y)
+print(z)
+print(mensaje)
+
+# Impresión de variable tipo cadena
+nombre = "Willian"
+print(nombre)
+
+# Condición simple
+if x > 3: {
+    print("x es mayor que 3")
+}
+
+# Condición con elif y else
+if x < 3: {
+    print("x es menor que 3")
+} elif x == 5: {
+    print("x es igual a 5")
+} else: {
+    print("x no cumple ninguna condicion anterior")
+}
+
+# Definición de función
+def saludar(): {
+    print("Bienvenido a VANE DS9")
+}
+
+# Llamado de función
+saludar()
